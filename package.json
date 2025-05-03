@@ -4,10 +4,10 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
+    "dev": "vite --base=/aut-test-base-component/",
+    "build": "vite build --base=/aut-test-base-component/",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview --base=/aut-test-base-component/"
   },
   "dependencies": {
     "@ant-design/icons": "^6.0.0",
